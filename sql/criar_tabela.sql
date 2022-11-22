@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS TB_BIODIESEL;
+
+CREATE TABLE IF NOT EXISTS TB_BIODIESEL (
+    ano INT,
+    regiao VARCHAR(50),
+    producao_metros_cubicos FLOAT
+);

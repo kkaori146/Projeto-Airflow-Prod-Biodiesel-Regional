@@ -8,6 +8,7 @@
 ## Fonte
 
 - Portal Braasileiro de Dados Abertos
+
 __https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/arquivos-producao-de-biocombustiveis/producao-biodiesel-m3-2005-2021.csv__
 
 <br>
@@ -18,19 +19,19 @@ __https://www.gov.br/anp/pt-br/centrais-de-conteudo/dados-abertos/arquivos/arqui
 
 - Implementação das modificações no docker-compose.yaml (PostgreSQL)
 
-docker-compose up -d --no-deps --build postgres
+**__$\textcolor{darkgreen}{\text{docker-compose up -d --no-deps --build postgres}}$__**
 
 - Solucionando problema no import do PostgresOperator dentro do vscode
 
-pip install 'apache-airflow[postgres]
+**__$\textcolor{darkgreen}{\text{pip install 'apache-airflow[postgres]}}$__**
 
 - Inicialização rápida do airflow
 
-docker-compose up airflow-init
+**__$\textcolor{darkgreen}{\text{docker-compose up airflow-init}}$__**
 
 - Implementação das modificações na DAG ou docker-compose.yaml
 
-docker-compose up
+**__$\textcolor{darkgreen}{\text{docker-compose up}}$__**
 
 ## Resultados
 
@@ -41,7 +42,7 @@ docker-compose up
 - PostgreSQL
 
 <br>
+<br>
+<hr/>
 
-<hr>
-
-"# Projeto-Airflow-Prod-Biodiesel-Regional" 
+<div align="right"><p>Novembro, 2022</p></div>

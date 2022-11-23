@@ -1,7 +1,8 @@
 # Projeto Imigrantes
 
 
-- Projeto que visa testar os conhecimentos em airflow
+- Projeto visa extrair dados de dois arquivos csv e posteriormente concatená-los
+- Tratamento das inconsistências
 - Análise preliminar sobre produção regional de biodiesel em metros cúbicos entre os anos de 2005 a 2022
 - Exportação do resultado (arquivo parquet) da subpasta pesquisa para o PostgreSQL
 
